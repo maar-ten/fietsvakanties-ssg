@@ -1,0 +1,17 @@
+/
+/trip/2001
+/trip/2002
+/trip/2004
+/trip/2005
+/route/2001
+/route/2002
+/route/2004
+/route/2005
+/log/2001
+/log/2002
+/log/2004
+/log/2005
+/photos/2001
+/photos/2002
+/photos/2004
+/photos/2005
