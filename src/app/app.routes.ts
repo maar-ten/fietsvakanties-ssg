@@ -8,7 +8,7 @@ import { TripRouteComponent } from './trip-route/trip-route.component';
 export const routes: Routes = [
     { path: '', component: LandingComponent },
     { path: 'trip/:year', component: TripComponent },
-    { path: 'route/:year', component: TripRouteComponent },
-    { path: 'log/:year', component: TripLogComponent },
-    { path: 'photos/:year', component: TripPhotoComponent },
+    { path: 'trip/:year/route', component: TripRouteComponent },
+    { path: 'trip/:year/log', component: TripLogComponent },
+    { path: 'trip/:year/photos', component: TripPhotoComponent },
 ];

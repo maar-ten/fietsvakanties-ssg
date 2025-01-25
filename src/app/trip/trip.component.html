@@ -1,7 +1,7 @@
 <p>Selected trip is {{ selectedYear }}!</p>
 
 <ul>
-    <li><a routerLink="/route/{{ selectedYear }}" routerLinkActive="active" ariaCurrentWhenActive="page">Route</a></li>
-    <li><a routerLink="/log/{{ selectedYear }}" routerLinkActive="active" ariaCurrentWhenActive="page">Dagboek</a></li>
-    <li><a routerLink="/photos/{{ selectedYear }}" routerLinkActive="active" ariaCurrentWhenActive="page">Foto's</a></li>
+    <li><a routerLink="/trip/{{ selectedYear }}/route" routerLinkActive="active" ariaCurrentWhenActive="page">Route</a></li>
+    <li><a routerLink="/trip/{{ selectedYear }}/log" routerLinkActive="active" ariaCurrentWhenActive="page">Dagboek</a></li>
+    <li><a routerLink="/trip/{{ selectedYear }}/photos" routerLinkActive="active" ariaCurrentWhenActive="page">Foto's</a></li>
 </ul>
